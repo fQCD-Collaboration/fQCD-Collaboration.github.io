@@ -12847,7 +12847,7 @@ section.resume-section-small .resume-section-content {
 
 /* .list-item styles */
 .list-item-small {
-  flex: 0 0 22.0%;
+  flex: 0 0 24.0%;
   /* Each item takes up 1/5 of the container */
   box-sizing: border-box;
   /* Ensure padding and borders are included in width */
