@@ -12930,3 +12930,11 @@ html {
   width: auto;
   /* Maintain aspect ratio */
 }
+
+/* codes section: wrap into a grid instead of scrolling horizontally */
+#codes .list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  overflow-x: clip;
+  align-items: start;
+}
